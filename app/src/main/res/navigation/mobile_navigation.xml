@@ -5,23 +5,26 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+
+    <!--Name = classe java relacionada-->
+    <!--Layout = layout relacionado-->
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.appcuriosidades.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.appcuriosidades.ui.serie.SerieFragment"
+        android:label="@string/menu_serieA"
+        tools:layout="@layout/fragment_serie" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.appcuriosidades.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.appcuriosidades.ui.perguntas.PerguntasFragment"
+        android:label="@string/menu_perguntas"
+        tools:layout="@layout/fragment_perguntas" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.appcuriosidades.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.appcuriosidades.ui.resultado.ResultadoFragment"
+        android:label="@string/menu_result"
+        tools:layout="@layout/fragment_resultado" />
 
     <fragment
         android:id="@+id/nav_tools"

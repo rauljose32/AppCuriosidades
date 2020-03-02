@@ -7,10 +7,18 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_serieA">Série</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="menu_serie">Série</string>
+    <string name="nome">Raul José Pereira Neto</string>
+    <string name="descricao">One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 19 de julho de 1997, com os capítulos compilados e publicados em volumes tankōbon pela editora Shueisha. One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma Fruta do Demônio acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o One Piece, a fim de se tornar o próximo Rei dos Piratas.</string>
+    <string name="menu_resultado">resultado</string>
+    <string name="menu_result">Resultado</string>
+    <string name="menu_perguntas">Perguntas</string>
+    <string name="mais_info">O mangá foi adaptado em um episódio OVA produzido pela Production I.G em 1998, e num anime produzido pela Toei Animation, transmitido no Japão desde 1999. Além disso, a Toei Animation produziu treze filmes de anime, um OVA e onze episódios especiais de televisão. Foram lançadas também vários tipos de mídias desenvolvidas por diversas empresas relacionadas à série, como um jogo de cartas colecionável, e vários jogos eletrônicos. A série de mangá é licenciada e publicada no Brasil pela editora Panini Comics. A série de anime já foi exibida em sinal aberto no Brasil e em televisão a cabo, e em Portugal apenas em televisão a cabo. Atualmente a série é transmitida simultaneamente pela Crunchyroll no Brasil. One Piece recebeu elogios pelos seus personagens, sua arte, humor e caracterização. Vários volumes do mangá quebraram recordes de publicação, incluindo a maior tiragem inicial de qualquer livro no Japão. O site oficial da série anunciou que o mangá estabeleceu um recorde mundial como a série de quadrinhos de um mesmo autor com mais cópias publicadas no mundo. A partir de maio de 2018, o mangá já tinha vendido mais de 440 milhões de cópias em todo o mundo, sendo a série de mangá mais vendida da história.</string>
+    <string name="mais_infos">Mais Informações</string>
 </resources>
