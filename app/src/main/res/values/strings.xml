@@ -11,14 +11,44 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
+    <string name="menu_share">Compartilhar</string>
     <string name="menu_send">Send</string>
     <string name="menu_serie">Série</string>
     <string name="nome">Raul José Pereira Neto</string>
-    <string name="descricao">One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 19 de julho de 1997, com os capítulos compilados e publicados em volumes tankōbon pela editora Shueisha. One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma Fruta do Demônio acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o One Piece, a fim de se tornar o próximo Rei dos Piratas.</string>
-    <string name="menu_resultado">resultado</string>
+    <string name="menu_resultado">Resultado</string>
     <string name="menu_result">Resultado</string>
     <string name="menu_perguntas">Perguntas</string>
-    <string name="mais_info">O mangá foi adaptado em um episódio OVA produzido pela Production I.G em 1998, e num anime produzido pela Toei Animation, transmitido no Japão desde 1999. Além disso, a Toei Animation produziu treze filmes de anime, um OVA e onze episódios especiais de televisão. Foram lançadas também vários tipos de mídias desenvolvidas por diversas empresas relacionadas à série, como um jogo de cartas colecionável, e vários jogos eletrônicos. A série de mangá é licenciada e publicada no Brasil pela editora Panini Comics. A série de anime já foi exibida em sinal aberto no Brasil e em televisão a cabo, e em Portugal apenas em televisão a cabo. Atualmente a série é transmitida simultaneamente pela Crunchyroll no Brasil. One Piece recebeu elogios pelos seus personagens, sua arte, humor e caracterização. Vários volumes do mangá quebraram recordes de publicação, incluindo a maior tiragem inicial de qualquer livro no Japão. O site oficial da série anunciou que o mangá estabeleceu um recorde mundial como a série de quadrinhos de um mesmo autor com mais cópias publicadas no mundo. A partir de maio de 2018, o mangá já tinha vendido mais de 440 milhões de cópias em todo o mundo, sendo a série de mangá mais vendida da história.</string>
     <string name="mais_infos">Mais Informações</string>
+    <string name="mais_info_p1">O mangá foi adaptado em um episódio OVA produzido pela Production I.G
+        em 1998, e num anime produzido pela Toei Animation, transmitido no Japão desde 1999.
+        Além disso, a Toei Animation produziu treze filmes de anime,
+        um OVA e onze episódios especiais de televisão. Foram lançadas também vários tipos
+        de mídias desenvolvidas por diversas empresas relacionadas à série,
+        como um jogo de cartas colecionável, e vários jogos eletrônicos.
+        A série de mangá é licenciada e publicada no Brasil pela editora Panini Comics.
+        A série de anime já foi exibida em sinal aberto no Brasil e em televisão a cabo,
+        e em Portugal apenas em televisão a cabo.
+        Atualmente a série é transmitida simultaneamente pela Crunchyroll no Brasil.
+        One Piece recebeu elogios pelos seus personagens, sua arte, humor e caracterização.
+        Vários volumes do mangá quebraram recordes de publicação,
+        incluindo a maior tiragem inicial de qualquer livro no Japão.
+        O site oficial da série anunciou que o mangá estabeleceu um recorde mundial como
+        "a série de quadrinhos de um mesmo autor com mais cópias publicadas no mundo".
+        A partir de maio de 2018, o mangá já tinha vendido mais de 440 milhões de cópias
+        em todo o mundo, sendo a série de mangá mais vendida da história."</string>
+    <string name="desc_op1">One Piece é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido serializados na revista Weekly Shōnen Jump desde 19 de julho de 1997,com os capítulos compilados e publicados em volumes tankōbon pela editora Shueisha.</string>
+    <string name="desc_op2">One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma Fruta do Demônio acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o One Piece, a fim de se tornar o próximo Rei dos Piratas.</string>
+    <string name="mais_info_p2">A série centra-se em Monkey D. Luffy, um jovem que, inspirado por seu ídolo de infância e poderoso pirata Shanks o Ruivo , sai em uma jornada do mar do leste azul para encontrar o famoso tesouro One Piece e proclamar-se o rei dos piratas.</string>
+    <string name="mais_info_p3">Em um esforço para organizar sua própria tripulação, os piratas do chapéu de palha (麦わら海賊団篇 Mugiwara Kaizoku-danhen), Luffy salva e faz amizade com um espadachim e caçador de piratas chamado Roronoa Zoro, que se torna seu braço direito.</string>
+    <string name="mais_info_p4">Eles estão Unidos em sua jornada por Nami, como navegadora e ladra</string>
+    <string name="mais_info_p5">Usopp, como atirador e um mentiroso</string>
+    <string name="mais_info_p6">e Sanji, como chef de cozinha sendo ele um mulherengo.</string>
+    <string name="mais_info_p7">Eles adquirem um navio chamado Going Merry</string>
+    <string name="mais_info_p8">e se envolvem em confrontos com famosos piratas do leste azul. Com Luffy e sua tripulação estabelecidos em suas aventuras, outros se juntam à tripulação mais tarde na série, incluindo Tony Tony Chopper, como médico da tripulação uma rena que comeu a Hito Hito no que lhe da poderes e caracteristicas de humano</string>
+    <string name="mais_info_p9">Nico Robin, como arqueóloga</string>
+    <string name="mais_info_p10">Franky, um ciborgue como carpiteiro</string>
+    <string name="mais_info_p11">Brook, um esqueleto falante, como músico e espadachim</string>
+    <string name="mais_info_p12">e Jinbei , um ( Tritão )</string>
+    <string name="mais_info_p13">e eles também adquirem um novo navio chamado Thousand Sunny</string>
+    <string name="compartilhar">Compartilhar</string>
 </resources>

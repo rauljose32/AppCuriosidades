@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
         android:textAlignment="center"
-        android:textSize="17dp" />
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageResultado"

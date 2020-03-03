@@ -10,7 +10,7 @@ public class MaisInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mais_info);
-        getSupportActionBar().hide();
+        getSupportActionBar().setTitle("Mais Informações");
 
     }
 }

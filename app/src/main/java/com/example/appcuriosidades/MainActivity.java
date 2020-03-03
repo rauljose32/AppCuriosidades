@@ -1,5 +1,6 @@
 package com.example.appcuriosidades;
 
+import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -71,9 +72,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        Intent intent = new Intent(this, MaisInfoActivity.class);
-        startActivity(intent);
-
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Intent intent = new Intent(getApplicationContext(), MaisInfoActivity.class);
+                startActivity(intent);
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -92,3 +96,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+/*https://onepiece.fandom.com/wiki/Bounties/Gallery*/

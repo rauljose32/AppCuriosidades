@@ -1,14 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MaisInfoActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mais_info"
-        android:textSize="15dp" />
-</LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MaisInfoActivity">
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/one_piece_logo"/>
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/straw_hat_pirates_as_a_family" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p2"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/monkey_d_luffy_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p3"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/roronoa_zoro_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p4"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nami_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p5"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/god_usopp_s_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p6"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sanji_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p7"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:src="@drawable/going_merry" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p8"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tony_tony_chopper_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p9"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nico_robin_s_current_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p10"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cyborg_franky_s_wanted_poster" />
+
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p11"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/brook_s_concert_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p12"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:layout_width="237dp"
+            android:layout_height="355dp"
+            android:layout_gravity="center"
+            android:src="@drawable/jinbei_wanted_poster" />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mais_info_p13"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:src="@drawable/thousand_sunny_sprite" />
+
+
+    </LinearLayout>
+</ScrollView>

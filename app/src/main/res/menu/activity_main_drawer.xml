@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-<!--Icones-->
+    <!--Icones-->
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
@@ -16,15 +16,12 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/checkmark_"
             android:title="@string/menu_resultado" />
-    </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-        </menu>
-    </item>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/compartilhar" />
+
+    </group>
 
 </menu>

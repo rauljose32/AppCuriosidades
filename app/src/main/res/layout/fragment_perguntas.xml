@@ -1,114 +1,238 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:gravity="center"
-        android:text="Perguntas sobre One Piece"
-        android:textSize="18dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="10dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Qual o nome do autor do Anime ?"
-            android:textSize="15dp" />
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Perguntas sobre"
+            android:textSize="18sp" />
 
-        <EditText
-            android:id="@+id/edit_query01"
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            android:layout_height="150dp"
+            android:src="@drawable/one_piece_logo" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="10dp">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Em que ano começou a ser Lançado ?"
-            android:textSize="15dp" />
+            android:orientation="vertical"
+            android:paddingTop="10dp">
 
-        <EditText
-            android:id="@+id/edit_query02"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qual o nome do autor de One Piece ?"
+                android:textSize="15sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="10dp">
+            <RadioGroup
+                android:id="@+id/group_divider01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Acompanhamos a historia de quem ?"
-            android:textSize="15dp" />
+                <RadioButton
+                    android:id="@+id/certa01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eiichiro Oda" />
 
-        <EditText
-            android:id="@+id/edit_query03"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masami Kurumada" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="10dp">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akira Toryama" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Qual o arco atual do Manga ?"
-            android:textSize="15dp" />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masashi Kishimoto" />
+            </RadioGroup>
 
-        <EditText
-            android:id="@+id/edit_query04"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="10dp">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="O que o Protagonista busca ?"
-            android:textSize="15dp" />
+            android:orientation="vertical"
+            android:paddingTop="10dp">
 
-        <EditText
-            android:id="@+id/edit_query05"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Em que ano começou a ser lançado o manga ?"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/group_divider02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1999" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2006" />
+
+                <RadioButton
+                    android:id="@+id/certa02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1997" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2020" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acompanhamos a historia de quem ?"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/group_divider03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gon Freecs" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="El Cid de Capricornio" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trunks" />
+
+                <RadioButton
+                    android:id="@+id/certa03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Monkey D. Luffy" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qual o arco atual do Manga ?"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/group_divider04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="East Blue" />
+
+                <RadioButton
+                    android:id="@+id/certa04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wano Kuni" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Marineford" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Water Seven/CP9" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qual Titulo o Protagonista busca ?"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/group_divider05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hokage" />
+
+                <RadioButton
+                    android:id="@+id/certa05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rei dos Piratas" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hunter" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rei Mago" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonResponder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="RESPONDER" />
+
     </LinearLayout>
-
-    <Button
-        android:paddingTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RESPONDER"
-        android:layout_gravity="center"
-        android:id="@+id/buttonResponder"/>
-
-</LinearLayout>
+</ScrollView>

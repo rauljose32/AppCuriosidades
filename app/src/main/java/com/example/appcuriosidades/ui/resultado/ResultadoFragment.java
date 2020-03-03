@@ -32,20 +32,20 @@ public class ResultadoFragment extends Fragment {
         preferences = getActivity().getSharedPreferences("resultado", Context.MODE_PRIVATE);
         int pontuacao = preferences.getInt("pontuacao", 0);
 
-        if ((pontuacao < 3) & (pontuacao > 0)) {
+        if (pontuacao < 3) {
 
             textViewResult.setText("Assista ou leia mais One Piece");
-            imageViewResult.setImageResource(R.drawable.emoticonsad);
+            imageViewResult.setImageResource(R.drawable.nao_sabe_nada_one_piece);
 
         } else if (pontuacao < 5) {
 
             textViewResult.setText("Você tem um bom conhecimento sobre One Piece");
-            imageViewResult.setImageResource(R.drawable.emoticonneutral);
+            imageViewResult.setImageResource(R.drawable.sabe_alguma_coisa_one_piece);
 
-        } else {
+        } else if (pontuacao == 5) {
 
             textViewResult.setText("Você sabe muito sobre One Piece");
-            imageViewResult.setImageResource(R.drawable.emoticonsmile);
+            imageViewResult.setImageResource(R.drawable.sabe_muito_one_piece);
 
         }
 
